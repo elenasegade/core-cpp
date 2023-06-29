@@ -13,7 +13,7 @@ namespace ignis {
     namespace driver {
         namespace api {
 
-            enum ICacheLevel { NO_CACHE = 0, PRESERVE = 1, MEMORY = 2, RAW_MEMORY = 3, DISK = 4 };
+            enum ICacheLevel { NO_CACHE = 0, PRESERVE = 1, MEMORY = 2, RAW_MEMORY = 3, DISK = 4, CHECKPOINT = 5 };
 
             class IAbstractDataFrame {
             protected:
